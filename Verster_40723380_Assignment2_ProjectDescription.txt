@@ -1,0 +1,14 @@
+Francois Verster
+40723380
+Assignment 2 CMPG 212
+
+
+--- Scenario ---
+
+Splendid Dogs, a doggy parlor, needs a basic web application for their secretaries to store bookings. The application must be easy to navigate, and the user must be able to achieve their goals without confusion. Basic booking information must be stored in a database. The secretaries must be able to add, edit, delete, and search bookings using the interface provided. Input must be validated since the secretaries work under pressure and do not always have time to double-check their own entries. A feature must be added somewhere to keep track of the last executed query so that the secretaries can keep track of what they are doing. Lastly, the program must be pleasing to the eye since the secretaries must use it daily.
+
+--- My Web Application ---
+
+I created a web application to fulfill the needs of the doggy parlor. The application will allow the secretaries to change and create client blookings without hassle. Bookings will be stored on databases with the following information: ID(Primary key); Name (dog's name); Breed; Gender; Treatment (type of treatment); Date (date of treatment); and Telephone (telephone number of owner). The application consists of a "Main Menu", where the secretary selects what query they want to conduct to the database regarding a booking (e.g., Add booking or delete booking). Each database query has its own page that is connected to the "Main Menu", as well as a hyperlink at the bottom left to take the secretary back to the "Main Menu" page. Input validation is conducted with the help of calanders (select booking dates), drop-down lists, radio-buttons (select gender), and field validators. I tried to avoid textbox input as much as possible since it is time consuming and requires a lot of validation, which is unacceptable for secretaries. Sessions are used across the application to save data temporarily in the case a postback is conducted and certain data is needed. Cookies are used to save the last executed query and display the result in the Main Menu on the right-hand side. Various colours are used in the design to make it more pleasing to work with. 
+
+This Application will overall be a great benefit for Splendid Dogs since it is easy to use, saves important booking data and has great input controls in place for a hectic and busy environment.
